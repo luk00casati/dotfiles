@@ -14,7 +14,7 @@ update:
 	@mv .tmux.conf tmux.conf
 	@cp ~/.config/picom.conf .
 	git config --global user.name "Luca Casati"
-	git config --global user.mail "luk00casati@gmail.com"
+	git config --global user.email "luk00casati@gmail.com"
 
 deploy:
 	@cp -rf nvim ~/.config
