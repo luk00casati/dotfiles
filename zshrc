@@ -48,7 +48,7 @@ al() {
     cd "$(cat "${HOME}/.config/alfonso/where")"
 }
 
-. "$HOME/.cargo/env"
+#. "$HOME/.cargo/env"
 
 [ -f "/home/luca/.ghcup/env" ] && source "/home/luca/.ghcup/env" # ghcup-env
 
