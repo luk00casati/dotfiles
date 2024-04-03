@@ -14,7 +14,6 @@ zstyle ':completion:*' menu select
 zmodload zsh/complist
 compinit
 _comp_options+=(globdots)
-#export LS_COLORS
 #zsh plugin
 #zsh-syntax-highlighting
 #zsh-autosuggestions
@@ -28,11 +27,10 @@ export EDITOR=nvim
 setopt share_history
 alias drugs='timeout 30s cmatrix | lolcat -tif; clear'
 #alias bt='bluetoothctl connect 5C:FB:7C:67:11:45'
-alias image_f='sxiv -r ~/pictures'
+alias imagef='sxiv -r ~/pictures'
 alias xi='sxiv'
-alias redon='redshift -l 45.464:9.189 &'
-alias redoff='redshift -x'
 alias findkey='xev'
+alias trash='mv -t $HOME/Trash'
 alias al-cd='cd "$(cat "${HOME}/.config/alfonso/where")"'
 alias vkey='setxkbmap -layout us -option ctrl:swapcaps; xinput disable 14' 
 alias nkey='setxkbmap -layout it; xinput enable 14'
