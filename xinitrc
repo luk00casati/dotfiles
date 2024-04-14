@@ -4,7 +4,8 @@ setxkbmap -layout us -option ctrl:swapcaps
 xinput disable 14
 xwallpaper --zoom $HOME/pictures/trippy-fractal.jpeg
 #wmname compiz
-pulseaudio --start
+#pulseaudio --start
+pulseaudio -D
 picom -b
 #dmw
 slstatus &
