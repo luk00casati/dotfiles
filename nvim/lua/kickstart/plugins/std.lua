@@ -7,4 +7,11 @@ return {
 		-- Optional dependencies
 		dependencies = { "nvim-tree/nvim-web-devicons" },
 	},
+	-- "gc" to comment visual regions/lines
+	{ "numToStr/Comment.nvim", opts = {} },
+	-- ui alternative
+	-- {
+	-- 	"stevearc/dressing.nvim",
+	-- 	opts = {},
+	-- },
 }
