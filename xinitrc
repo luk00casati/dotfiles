@@ -5,7 +5,7 @@ xinput disable 14
 xwallpaper --zoom $HOME/pictures/trippy-fractal.jpeg
 #wmname compiz
 #pulseaudio --start
-pulseaudio -D
+#pulseaudio -D
 picom -b
 #dmw
 slstatus &

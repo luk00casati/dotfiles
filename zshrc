@@ -27,7 +27,6 @@ export EDITOR=nvim
 setopt share_history
 alias drugs='timeout 30s cmatrix | lolcat -tif; clear'
 #alias bt='bluetoothctl connect 5C:FB:7C:67:11:45'
-alias imagef='sxiv -r ~/pictures'
 alias xi='sxiv'
 alias findkey='xev'
 alias trash='mv -t $HOME/Trash'
@@ -36,6 +35,7 @@ alias vkey='setxkbmap -layout us -option ctrl:swapcaps; xinput disable 14'
 alias nkey='setxkbmap -layout it; xinput enable 14'
 alias nv='nvim'
 alias hx='helix'
+alias em='emacs -nw'
 
 #alfonso
 al() {
@@ -47,5 +47,5 @@ al() {
 
 [ -f "/home/luca/.ghcup/env" ] && source "/home/luca/.ghcup/env" # ghcup-env
 
-source /home/luca/.config/broot/launcher/bash/br
+#source /home/luca/.config/broot/launcher/bash/br
 
