@@ -6,8 +6,8 @@ update:
 	# @echo '' > alfonso/where
 	# @cp ~/.zshrc .
 	# @mv .zshrc zshrc
-	# @cp ~/.vimrc .
-	# @mv .vimrc vimrc
+	@cp ~/.vimrc .
+	@mv .vimrc vimrc
 	# @cp ~/.xinitrc .
 	# @mv .xinitrc xinitrc
 	# @cp ~/.tmux.conf .
@@ -21,8 +21,10 @@ deploy:
 	# @cp -rf helix ~/.config
 	# @cp zshrc ~
 	# @mv ~/zshrc ~/.zshrc
-	# @cp vimrc ~
-	# @mv ~/vimrc ~/.vimrc
+	@cp vimrc ~
+	@mv ~/vimrc ~/.vimrc
+	curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 	# @cp xinitrc ~
 	# @mv ~/xinitrc ~/.xinitrc
 	# @cp tmux.conf ~

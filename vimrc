@@ -33,6 +33,12 @@ set termguicolors
 set autoindent
 filetype indent on
 
+call plug#begin()
+
+Plug 'morhetz/gruvbox'
+
+call plug#end()
+
 set bg=dark
 colorscheme gruvbox
 
