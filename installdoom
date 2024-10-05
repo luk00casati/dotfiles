@@ -1,0 +1,5 @@
+#!/bin/sh
+git clone --depth 1 https://github.com/doomemacs/doomemacs ~/.config/emacs
+cp doom.ico ~/.config/emacs
+~/.config/emacs/bin/doom install
+~/.config/emacs/bin/doom sync
