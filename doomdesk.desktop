@@ -1,5 +1,0 @@
-[Desktop Entry]
-Type=Application
-Name=Doom
-Exec=$(HOME)/config/emacs/bin/doom run
-Icon=$(HOME)/config/emacs/doom.ico

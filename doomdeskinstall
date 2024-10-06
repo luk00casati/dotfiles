@@ -1,0 +1,4 @@
+#!/bin/sh
+sed 's|HOME|'"${HOME}"'|g' doomprep.desktop > doom.desktop
+chmod +x doom.desktop
+cp doom.desktop /usr/share/applications
