@@ -1,0 +1,4 @@
+#!/bin/sh
+cp ~/.emacs.d/init.el ~/dotfiles/emacs/
+cp ~/.emacs.d/plugins.el ~/dotfiles/emacs/
+cp ~/.emacs.d/misc.el ~/dotfiles/emacs/
